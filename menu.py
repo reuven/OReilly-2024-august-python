@@ -9,4 +9,5 @@ def greet(name):
     return f'Hello, {name}!'
 
 if __name__ == '__main__':   # if the file is run as a program, then do this:
-    r = menu([
+    r = menu(['a', 'b', 'c'])
+    print(f'You chose {r}')
