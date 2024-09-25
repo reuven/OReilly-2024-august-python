@@ -7,3 +7,6 @@ def menu(options):
 
 def greet(name):
     return f'Hello, {name}!'
+
+if __name__ == '__main__':   # if the file is run as a program, then do this:
+    r = menu([
