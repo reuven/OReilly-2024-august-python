@@ -7,4 +7,5 @@ y = [10, 20, 30]
 def hello(name):
     return f'Hello, {name}!'
 
-print(f'About to end {__name__}')
+if __name__ == '__main__':
+    print(f'About to end {__name__}')
